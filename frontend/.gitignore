@@ -1,0 +1,123 @@
+# Node.js dependencies
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+/build/
+dist/
+
+# React Native
+.expo/
+.expo-shared/
+
+# Next.js
+.next/
+out/
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+*.sqlite3
+/staticfiles
+/media
+*.pot
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Coverage reports
+.coverage
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+*.cover
+
+# Sphinx documentation
+docs/_build/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Other
+*.swp
+*.swo
+*.swn
+*.tmp
+*.bak
+*.orig
+
+# Environment variables
+.env
+.envrc
+*.env
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+# React
+# (These are included by default in React projects)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.orig
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.pid
+*.seed
+*.dump
+
+# Jest
+jest-coverage/
